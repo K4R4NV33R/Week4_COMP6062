@@ -1,4 +1,32 @@
-body{
-    background-color: silver;
-    font-family: 'Times New Roman', Times, serif;
+
+@media (max-width:650px){
+    body{
+        background-color: #b3f0ff;
+        text-decoration-color: #FFF;
+        font-family: cursive;
+    }
+}
+
+.box {
+    background-color: blue;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    margin-bottom: 14px;
+    border-radius: 14px;
+}
+
+.box1 {
+    background-color: red;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    margin-bottom: 14px;
+    border-radius: 14px;
+}
+
+footer {
+
+    font-size: medium;
+    text-decoration-color: #FFF;
 }
